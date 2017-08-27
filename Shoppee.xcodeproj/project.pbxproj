@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		900EB9F11F53523F0080069A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EB9F01F53523F0080069A /* AppDelegate.swift */; };
+		900EB9F31F53523F0080069A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EB9F21F53523F0080069A /* ViewController.swift */; };
+		900EB9F61F53523F0080069A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900EB9F41F53523F0080069A /* Main.storyboard */; };
+		900EB9F91F53523F0080069A /* Shoppee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 900EB9F71F53523F0080069A /* Shoppee.xcdatamodeld */; };
+		900EB9FB1F53523F0080069A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900EB9FA1F53523F0080069A /* Assets.xcassets */; };
+		900EB9FE1F53523F0080069A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900EB9FC1F53523F0080069A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		900EB9ED1F53523F0080069A /* Shoppee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shoppee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		900EB9F01F53523F0080069A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		900EB9F21F53523F0080069A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		900EB9F51F53523F0080069A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		900EB9F81F53523F0080069A /* Shoppee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shoppee.xcdatamodel; sourceTree = "<group>"; };
+		900EB9FA1F53523F0080069A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		900EB9FD1F53523F0080069A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		900EB9FF1F53523F0080069A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		900EB9EA1F53523F0080069A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		900EB9E41F53523F0080069A = {
+			isa = PBXGroup;
+			children = (
+				900EB9EF1F53523F0080069A /* Shoppee */,
+				900EB9EE1F53523F0080069A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		900EB9EE1F53523F0080069A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				900EB9ED1F53523F0080069A /* Shoppee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		900EB9EF1F53523F0080069A /* Shoppee */ = {
+			isa = PBXGroup;
+			children = (
+				900EB9F01F53523F0080069A /* AppDelegate.swift */,
+				900EB9F21F53523F0080069A /* ViewController.swift */,
+				900EB9F41F53523F0080069A /* Main.storyboard */,
+				900EB9FA1F53523F0080069A /* Assets.xcassets */,
+				900EB9FC1F53523F0080069A /* LaunchScreen.storyboard */,
+				900EB9FF1F53523F0080069A /* Info.plist */,
+				900EB9F71F53523F0080069A /* Shoppee.xcdatamodeld */,
+			);
+			path = Shoppee;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		900EB9EC1F53523F0080069A /* Shoppee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900EBA021F53523F0080069A /* Build configuration list for PBXNativeTarget "Shoppee" */;
+			buildPhases = (
+				900EB9E91F53523F0080069A /* Sources */,
+				900EB9EA1F53523F0080069A /* Frameworks */,
+				900EB9EB1F53523F0080069A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shoppee;
+			productName = Shoppee;
+			productReference = 900EB9ED1F53523F0080069A /* Shoppee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		900EB9E51F53523F0080069A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Francis Jemuel Bergonia";
+				TargetAttributes = {
+					900EB9EC1F53523F0080069A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 900EB9E81F53523F0080069A /* Build configuration list for PBXProject "Shoppee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 900EB9E41F53523F0080069A;
+			productRefGroup = 900EB9EE1F53523F0080069A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				900EB9EC1F53523F0080069A /* Shoppee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		900EB9EB1F53523F0080069A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900EB9FE1F53523F0080069A /* LaunchScreen.storyboard in Resources */,
+				900EB9FB1F53523F0080069A /* Assets.xcassets in Resources */,
+				900EB9F61F53523F0080069A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		900EB9E91F53523F0080069A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900EB9F91F53523F0080069A /* Shoppee.xcdatamodeld in Sources */,
+				900EB9F31F53523F0080069A /* ViewController.swift in Sources */,
+				900EB9F11F53523F0080069A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		900EB9F41F53523F0080069A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				900EB9F51F53523F0080069A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		900EB9FC1F53523F0080069A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				900EB9FD1F53523F0080069A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		900EBA001F53523F0080069A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		900EBA011F53523F0080069A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		900EBA031F53523F0080069A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Shoppee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XiApps.Shoppee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		900EBA041F53523F0080069A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Shoppee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XiApps.Shoppee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		900EB9E81F53523F0080069A /* Build configuration list for PBXProject "Shoppee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900EBA001F53523F0080069A /* Debug */,
+				900EBA011F53523F0080069A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		900EBA021F53523F0080069A /* Build configuration list for PBXNativeTarget "Shoppee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900EBA031F53523F0080069A /* Debug */,
+				900EBA041F53523F0080069A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		900EB9F71F53523F0080069A /* Shoppee.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				900EB9F81F53523F0080069A /* Shoppee.xcdatamodel */,
+			);
+			currentVersion = 900EB9F81F53523F0080069A /* Shoppee.xcdatamodel */;
+			path = Shoppee.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 900EB9E51F53523F0080069A /* Project object */;
+}
