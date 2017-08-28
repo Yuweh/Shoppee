@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		900EB9F11F53523F0080069A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EB9F01F53523F0080069A /* AppDelegate.swift */; };
-		900EB9F31F53523F0080069A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EB9F21F53523F0080069A /* ViewController.swift */; };
+		900EB9F31F53523F0080069A /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EB9F21F53523F0080069A /* WelcomeVC.swift */; };
 		900EB9F61F53523F0080069A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900EB9F41F53523F0080069A /* Main.storyboard */; };
 		900EB9F91F53523F0080069A /* Shoppee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 900EB9F71F53523F0080069A /* Shoppee.xcdatamodeld */; };
 		900EB9FB1F53523F0080069A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900EB9FA1F53523F0080069A /* Assets.xcassets */; };
 		900EB9FE1F53523F0080069A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900EB9FC1F53523F0080069A /* LaunchScreen.storyboard */; };
+		909DEBC11F54530A00583885 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909DEBC01F54530A00583885 /* MainVC.swift */; };
+		909DEBC31F54549600583885 /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909DEBC21F54549600583885 /* CurrencyTextField.swift */; };
+		909DEBC51F547A9500583885 /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909DEBC41F547A9500583885 /* Wage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		900EB9ED1F53523F0080069A /* Shoppee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shoppee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		900EB9F01F53523F0080069A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		900EB9F21F53523F0080069A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		900EB9F21F53523F0080069A /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		900EB9F51F53523F0080069A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		900EB9F81F53523F0080069A /* Shoppee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shoppee.xcdatamodel; sourceTree = "<group>"; };
 		900EB9FA1F53523F0080069A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		900EB9FD1F53523F0080069A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		900EB9FF1F53523F0080069A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		909DEBC01F54530A00583885 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		909DEBC21F54549600583885 /* CurrencyTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
+		909DEBC41F547A9500583885 /* Wage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +62,10 @@
 		900EB9EF1F53523F0080069A /* Shoppee */ = {
 			isa = PBXGroup;
 			children = (
+				909DEBBE1F5452B100583885 /* Model */,
+				909DEBBF1F5452D200583885 /* View */,
+				909DEBBD1F5452A200583885 /* Controller */,
 				900EB9F01F53523F0080069A /* AppDelegate.swift */,
-				900EB9F21F53523F0080069A /* ViewController.swift */,
 				900EB9F41F53523F0080069A /* Main.storyboard */,
 				900EB9FA1F53523F0080069A /* Assets.xcassets */,
 				900EB9FC1F53523F0080069A /* LaunchScreen.storyboard */,
@@ -65,6 +73,31 @@
 				900EB9F71F53523F0080069A /* Shoppee.xcdatamodeld */,
 			);
 			path = Shoppee;
+			sourceTree = "<group>";
+		};
+		909DEBBD1F5452A200583885 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				900EB9F21F53523F0080069A /* WelcomeVC.swift */,
+				909DEBC01F54530A00583885 /* MainVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		909DEBBE1F5452B100583885 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				909DEBC41F547A9500583885 /* Wage.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		909DEBBF1F5452D200583885 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				909DEBC21F54549600583885 /* CurrencyTextField.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +173,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				900EB9F91F53523F0080069A /* Shoppee.xcdatamodeld in Sources */,
-				900EB9F31F53523F0080069A /* ViewController.swift in Sources */,
+				909DEBC51F547A9500583885 /* Wage.swift in Sources */,
+				909DEBC11F54530A00583885 /* MainVC.swift in Sources */,
+				900EB9F31F53523F0080069A /* WelcomeVC.swift in Sources */,
+				909DEBC31F54549600583885 /* CurrencyTextField.swift in Sources */,
 				900EB9F11F53523F0080069A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +337,7 @@
 				900EBA041F53523F0080069A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
